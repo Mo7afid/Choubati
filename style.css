@@ -1,0 +1,55 @@
+/* إعدادات عامة */
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background-color: #F9FAFB;
+  color: #111827;
+  direction: rtl;
+}
+
+/* رأس الصفحة */
+header {
+  background-color: #2563EB;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* المحتوى الرئيسي */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* الفقرة التعريفية */
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* زر البدء */
+.btn-start {
+  background: linear-gradient(90deg, #2563EB, #10B981);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-start:hover {
+  opacity: 0.9;
+}
+
+/* التذييل */
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #E5E7EB;
+  color: #4B5563;
+  font-size: 0.9rem;
+  text-align: center;
+}
